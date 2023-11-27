@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ephesis&family=Fjalla+One&family=Great+Vibes&family=Josefin+Sans:wght@300&family=Outfit:wght@100&family=Roboto+Mono:wght@200&family=Roboto:wght@100&family=Signika+Negative:wght@500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ephesis&family=Fjalla+One&family=Great+Vibes&family=Josefin+Sans:wght@300;400&family=Lexend&family=Outfit:wght@100&family=Roboto+Mono:wght@200&family=Roboto:wght@100&family=Signika+Negative:wght@500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Ephesis&family=Fjalla+One&family=Great+Vibes&family=Josefin+Sans:wght@300;400&family=Lexend&family=Outfit:wght@100&family=Roboto+Mono:wght@200&family=Roboto:wght@100&family=Signika+Negative:wght@500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Bungee&family=Ephesis&family=Fjalla+One&family=Great+Vibes&family=Josefin+Sans:wght@300;400&family=Lexend&family=Outfit:wght@100&family=Poiret+One&family=Roboto+Mono:wght@200&family=Roboto:wght@100&family=Signika+Negative:wght@500&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            color: white;
+        }
+
+        .header {
+            display: inline-block;
+            overflow: visible;
+        }
+
+        .header img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 1268px;
+            height: 636px;
+        }
+
+        .left div {
+            color: rgb(198, 196, 255);
+            font-family: 'Ephesis', cursive;
+            font-size: 30px;
+            position: absolute;
+            top: 0px;
+            left: 50px;
+            margin: 15px 0px;
+            padding: 10px 110px;
+        }
+
+        .left div:hover {
+            color: rgb(226, 183, 226);
+        }
+
+        .left img {
+            position: absolute;
+            width: 200px;
+            height: 50px;
+            top: 5px;
+            left: 200px;
+            padding: 20px;
+            margin: 0px;
+            filter: invert(100%);
+        }
+
+        .right {
+            font-size: 20px;
+            position: absolute;
+            left: 500px;
+            top: 0px;
+            left: 650px;
+        }
+
+        .right ul {
+            display: flex;
+        }
+
+        .right ul li {
+            list-style: none;
+            padding: 10px 20px;
+        }
+
+        .right ul li a {
+            color: rgb(255, 191, 191);
+            font-family: 'Josefin Sans', sans-serif;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            color: #ff338b;
+            text-decoration: underline;
+        }
+
+        .container {
+            position: relative;
+            top: 60px;
+            left: 0px;
+            width: 100%;
+            height: 636px;
+        }
+
+        .box1 {
+            padding-left: 50px;
+            margin: 50px;
+            position: relative;
+            width: 90%;
+            height: 300px;
+        }
+
+        .box1 h1 {
+            color: rgb(252, 196, 255);
+            position: relative;
+            margin: 0px;
+            font-size: 60px;
+        }
+
+        .box1 h3 {
+            color: rgb(208, 208, 208);
+            font-family: 'Josefin Sans', sans-serif;
+            position: relative;
+            margin: 130px 0px 0px 0px;
+        }
+
+        .box1 h2 {
+            color: rgb(208, 208, 208);
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 28px;
+            position: relative;
+            margin: 0px;
+        }
+
+        .box1 p {
+            color: rgb(208, 208, 208);
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 13px;
+            text-align: left;
+            width: 500px;
+        }
+
+        .box1 img {
+            position: relative;
+            top: 50px;
+            width: 60px;
+            height: 60px;
+            margin: 0px 25px;
+        }
+
+        .box1 img:hover {
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px 10px rgb(184, 162, 255)
+        }
+
+        .box2 {
+            position: absolute;
+            top: 700px;
+            margin: 0px;
+            display: inline-block;
+            overflow: visible;
+            width: 50%;
+            height: 500px;
+        }
+
+        .box2 img {
+            position: absolute;
+            top: 430px;
+            left: 0px;
+            width: 1268px;
+            height: 636px;
+        }
+
+        .box2 p {
+            color: rgb(255, 255, 255);
+            position: relative;
+            top: 10px;
+            left: 0px;
+        }
+
+        .box2 div {
+            color: rgb(255, 255, 255);
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+
+        .box2 div img {
+            position: absolute;
+            width: 150px;
+            height: 100px;
+            top: 0px;
+            left: 1020px;
+        }
+
+        #headings {
+            color: rgb(220, 220, 255);
+            font-family: monospace;
+            position: absolute;
+            top: 0px;
+            left: 50px;
+            font-size: 50px;
+        }
+
+        #headings:hover {
+            color: plum;
+            text-decoration: underline;
+        }
+
+        .subheadings {
+            position: absolute;
+            margin-top: 80px;
+            margin-left: 50px;
+        }
+
+        .subheadings p {
+            color: rgb(255, 245, 188);
+            font-weight: bold;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            margin-left: 20px;
+            padding-top: 20px;
+            font-size: 30px;
+        }
+
+        .rating {
+            position: absolute;
+            left: 300px;
+            color: goldenrod;
+            font-size: 30px;
+        }
+
+        .box3 {
+            position: absolute;
+            margin: 0px;
+            top: 700px;
+            display: inline-block;
+            overflow: visible;
+            width: 50%;
+            left: 535px;
+            height: 500px;
+        }
+
+        .box3 div img {
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            top: 0px;
+            left: 520px;
+        }
+
+        .cont {
+            display: flex;
+        }
+
+        .cont img {
+            position: absolute;
+            top: 640px;
+            left: 0px;
+            width: 1268px;
+            height: 636px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img src="neon.avif" alt="Image not found">
+        <div class="left">
+            <img src="sign2.png" alt="Sign not Found">
+            <div>Purnima</div>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box1">
+            <h3>Hola, It's me</h3>
+            <h1>BILLA PURNIMA</h1>
+            <h2>A Front-end Web Developer</h2>
+            <p>As a computer science and engineering student, I am passionate about exploring the intricate world of
+                technology. Eager to contribute to the ever-evolving field of computer science, I am driven by curiosity
+                and a commitment to innovation.</p>
+            <a href="#"><img src="linkedin.png" alt="Error loading image"></a>
+            <a href="#"><img src="instagram.png" alt="Error loading image"></a>
+            <a href="#"><img src="twitter1.png" alt="Error loading image"></a>
+            <a href="#"><img src="whatsapp.png" alt="Error loading image"></a>
+        </div>
+    </div>
+    <div class="cont">
+        <img src="neon.avif" alt="Image not found">
+        <div class="box2">
+            <div id="headings">
+                My Skills
+            </div>
+            <div class="subheadings">
+                <p>
+                    Python
+                    <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </p>
+                <p>
+                    Web Development
+                    <span class="rating">&#9733;&#9733;&#9733;&#9733;</span>
+                </p>
+                <p>
+                    c++
+                    <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </p>
+                <p>
+                    Java
+                    <span class="rating">&#9733;&#9733;&#9733;&#9733;</span>
+                </p>
+
+            </div>
+        </div>
+        <div class="box3">
+            <div class="certifications">
+                <div id="headings">
+                    My Certifications
+                    <img src="badge1.png" alt="Image not found">
+                </div>
+                <div class="subheadings">
+                    <p>
+                        The Complete Introduction to C++ Programming from Udemy
+                    </p>
+                    <p>
+                        The Ultimate C++ Advanced Programming Course from Udemy
+                    </p>
+                    <p>
+                        Five stars in C++ from Hackerrank
+                    </p>
+                    <p>
+                        Three stars in Python from Hackerrank
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
